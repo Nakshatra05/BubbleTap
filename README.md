@@ -32,7 +32,7 @@ On Monad, every tap, bubble pop, or bomb click is recorded immutably on-chain â€
 
 ## ðŸ“¦ Tech Stack
 
-- **Frontend**: React + Tailwind (or your UI stack)
+- **Frontend**: React + Tailwind 
 - **Smart Contracts**: Solidity, deployed on Monad
 - **Wallet Integration**: MetaMask / Monad-native wallets
 - **Backend (optional)**: Indexer or event listener for leaderboards
@@ -43,7 +43,7 @@ On Monad, every tap, bubble pop, or bomb click is recorded immutably on-chain â€
 ## ðŸ›  Installation
 
 ```bash
-git clone https://github.com/Nakshatra05/bubble-tap.git
+git clone https://github.com/Nakshatra05/bubbletap.git
 cd bubble-tap
 npm install
 npm run dev
@@ -58,8 +58,7 @@ npm run dev
 * `getScore(address player)`: View current score
 * `getTopPlayers()`: Return global leaderboard (indexed)
 
-Contracts are deployed on the Monad Testnet. Testnet faucets and RPC config can be found [here](https://docs.monad.xyz).
-
+Contracts are deployed on the Monad Testnet. 
 ---
 
 ## âœ¨ Upcoming Features
